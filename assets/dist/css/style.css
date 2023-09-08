@@ -1,0 +1,29 @@
+.main-sidebar {
+  background: #3174c7;
+  color: white;
+}
+.sidebar {
+  margin-top: 1rem;
+}
+
+.nav-item :hover {
+  background-color: rgba(200, 200, 200, 0.4);
+}
+.nav-icon {
+  color: white;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 150;
+  line-height: 1.7em;
+  color: white;
+}
+.active {
+  border-right: 4px solid white !important;
+  background: rgba(200, 200, 200, 0.4) !important;
+}
+.card {
+  border-top: 3px #3174c7 solid;
+}
