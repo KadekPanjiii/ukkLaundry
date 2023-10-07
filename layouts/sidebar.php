@@ -6,17 +6,17 @@
 <!-- Main Sidebar Container -->
   <aside class="main-sidebar elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
-      <img src="../assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <p  href="index3.html" class="brand-link">
+      <img src="" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span style="color: white;font-weight: bold;" class="brand-text">Aplikasi Laundry</span>
-    </a>
+    </p>
 
     <!-- Sidebar -->
     <div class="sidebar">
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">
-        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="true">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <?php if ($_SESSION['role'] == 'admin' ){ ?>
@@ -29,13 +29,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <span href="#" class="nav-link">
               <i class="nav-icon fas fa-database"></i>
               <p>
                 Data Master
                 <i class="fas fa-angle-left right"></i>
               </p>
-            </a>
+            </span>
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="outlet.php" class="nav-link <?= strpos($url, 'outlet.php') ? 'active' : '' ?>">
@@ -63,13 +63,13 @@
               </li>
         </ul>
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <span href="#" class="nav-link">
               <i class="nav-icon fas fa-dollar-sign"></i>
               <p>
                 Transaksi
                 <i class="fas fa-angle-left right"></i>
               </p>
-            </a>
+            </span>
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="transaksi.php" class="nav-link">

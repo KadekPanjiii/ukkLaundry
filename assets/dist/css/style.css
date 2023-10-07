@@ -20,6 +20,9 @@ p {
   line-height: 1.7em;
   color: white;
 }
+.nav.nav-treeview {
+  display: none;
+}
 .active {
   border-right: 4px solid white !important;
   background: rgba(200, 200, 200, 0.4) !important;
